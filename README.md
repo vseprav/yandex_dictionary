@@ -20,7 +20,7 @@ Or install it yourself as:
 
 First, set your api key:
 
-  YandexDictionary.set_api_key('API_KEY')
+	YandexDictionary.set_api_key('API_KEY')
 
 Set translation directions
 
@@ -34,9 +34,7 @@ Searches for words or phrases in the dictionary and returns an automatically gen
 
 	YandexDictionary.lookup 'list'
 
-Documentation:
-
-	http://api.yandex.ru/dictionary/doc/dg/concepts/api-overview.xml
+Documentation: http://api.yandex.ru/dictionary/doc/dg/concepts/api-overview.xml
 
 ## Contributing
 
