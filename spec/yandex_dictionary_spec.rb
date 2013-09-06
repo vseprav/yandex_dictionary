@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require 'spec_helper'
 
 describe YandexDictionary do
@@ -17,9 +18,9 @@ describe YandexDictionary do
   end
 
   it "shoud set translation directions" do
-    YandexDictionary.set_lang 'en-de'
-    responce = YandexDictionary.lookup 'like'
-    responce['def'][0]['tr'][0]['text'].should == 'wie'
+    YandexDictionary.set_lang 'ru-uk'
+    responce = YandexDictionary.lookup 'лето'
+    responce['def'][0]['tr'][0]['text'].should == 'літо'
   end
 
 end

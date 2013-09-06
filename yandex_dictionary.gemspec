@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["vseprav@gmaul.com"]
   spec.description   = %q{Library for Yandex Dictionary API}
   spec.summary       = %q{Yandex Dictionary APIy}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/vseprav/yandex_dictionary"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

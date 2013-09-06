@@ -28,7 +28,7 @@ Set translation directions
 
 Returns a list of language supported by the server
 
-	YandexandexDictionary.getLangs
+	YandexDictionary.getLangs
 
 Searches for words or phrases in the dictionary and returns an automatically generated dictionary entry
 
