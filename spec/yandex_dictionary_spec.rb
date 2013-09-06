@@ -3,7 +3,7 @@ require 'spec_helper'
 describe YandexDictionary do
 
   before do
-    YandexDictionary.set_api_key('dict.1.1.20130905T115305Z.141ee09c57e5a581.4aad38ae060933072e798883fdeaa02780548d3f')
+    YandexDictionary.set_api_key(ENV['API_KEY'])
   end
 
   it "shoud return a list of language supported by the server" do
